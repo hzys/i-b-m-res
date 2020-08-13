@@ -34,7 +34,7 @@ EOF
                     "clients": [
                         {
                             "id": "${UUID}",
-                            "alterId": 4
+                            "alterId": 64
                         }
                     ]
                 },
@@ -104,10 +104,10 @@ install(){
     {
       "v": "2",
       "ps": "ibmyes",
-      "add": "ibmyes.us-south.cf.appdomain.cloud",
+      "add": "${IBM_HOST_NAME}.us-south.cf.appdomain.cloud",
       "port": "443",
       "id": "${UUID}",
-      "aid": "4",
+      "aid": "64",
       "net": "ws",
       "type": "none",
       "host": "",
