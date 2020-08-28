@@ -86,6 +86,22 @@ IBM_APP_NAME // 应用的名称
 REGION_NUM // 区域编码
 RESOURSE_ID // 资源组ID
  ```
+ 2 设置此仓库的变量
+
+
+依次添加名为MAIL、PWD、RGN、CFNAME的变量
+值分别为邮箱(账号)、密码、区域、Cloud Foundry应用程序的名称(同时是链接前缀)
+
+3 确定Github Action正常工作
+点击修改任意文件后提交对自己的仓库点击Star使Actions激活
+
+此前，可能需要点击Pull requests与Projects之间的Action进去点一下允许之类的
+
+变量示例
+MAIL====>12345@qq.com
+PWD====>123456QWER
+RGN====>us-south
+CFNAME====>cxkjntm
 
 具体后面会一步一步完成
 
