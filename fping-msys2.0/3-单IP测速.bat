@@ -1,5 +1,5 @@
 @echo off
 set a=1.0.0.1
-set /p a=ÇëÊäÈë IP¡¾Ä¬ÈÏ£º%a%¡¿
-title  ÕıÔÚ²âÊÔ %a%
-curl --resolve apple.freecdn.workers.dev:443:%a% https://apple.freecdn.workers.dev/105/media/us/iphone-11-pro/2019/3bd902e4-0752-4ac1-95f8-6225c32aec6d/films/product/iphone-11-pro-product-tpl-cc-us-2019_1280x720h.mp4 -o nul --connect-timeout 5
+set /p a=è¯·è¾“å…¥ IPã€é»˜è®¤ï¼š%a%ã€‘
+title  æ­£åœ¨æµ‹è¯• %a%
+curl --resolve speed.cloudflare.com:443:%a% https://speed.cloudflare.com/__down?bytes=1000000000 -o nul --connect-timeout 5
