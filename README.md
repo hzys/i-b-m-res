@@ -89,7 +89,7 @@ RESOURSE_ID // 资源组ID
 
 
 依次添加名为MAIL、PWD、RGN、CFNAME的变量
-值分别为邮箱(账号)、密码、区域、Cloud Foundry应用程序的名称(同时是链接前缀)
+值分别为zh 邮箱(账号)、mm 密码、dq 区域、name Cloud Foundry应用程序的名称(同时是链接前缀)
 
 3 确定Github Action正常工作
 点击修改任意文件后提交对自己的仓库点击Star使Actions激活
