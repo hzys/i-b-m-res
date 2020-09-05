@@ -1,3 +1,3 @@
-[submodule "v2ray-cloudfoundry"]
-	path = v2ray-cloudfoundry
-	url = https://github.com/badafans/v2ray-cloudfoundry.git
+[submodule "v2ray-i-b-m"]
+	path = v2ray-i-b-m
+	url = https://github.com/hzys/v2ray-i-b-m.git
