@@ -20,11 +20,11 @@ jobs:
         curl -L "https://packages.cloudfoundry.org/stable?release=linux64-binary&source=github&version=v6" | tar -zx
         sudo mv cf /usr/local/bin
       
-    - name: Login CF1
-      run: cf l -a https://api.${{ secrets.DQ }}.cf.cloud.ibm.com login -u ${{ secrets.ZH1 }} -p ${{ secrets.MM }}
+    #- name: Login CF1
+    #  run: cf l -a https://api.${{ secrets.DQ }}.cf.cloud.ibm.com login -u ${{ secrets.ZH1 }} -p ${{ secrets.MM }}
       
-    - name: Restart CF APP1
-      run: cf rs ${{ secrets.NAME1 }}
+    #- name: Restart CF APP1
+    #  run: cf rs ${{ secrets.NAME1 }}
       
     - name: Login CF2
       run: cf l -a https://api.${{ secrets.DQ }}.cf.cloud.ibm.com login -u ${{ secrets.ZH2 }} -p ${{ secrets.MM }}
